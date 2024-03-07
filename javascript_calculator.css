@@ -1,0 +1,56 @@
+body {
+    background-color: lightgrey;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #calculator {
+    background-color: black;
+    border: 5px solid black;
+    width: 400px;
+    height: 500px;
+  }
+  
+  #display-container {
+    background-color: black;
+    height: 75px;
+    width: 100%;
+    position: relative;
+    color: white;
+    font-family: impact;
+    font-size: 2rem;
+  }
+  
+  p {
+    position: absolute;
+    right: 0;
+  }
+  
+  #buttons {
+    height: 425px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 85px;
+    grid-gap: 0px;
+  }
+  
+  button {
+    width: 100px;
+    border: 1px solid black;
+  }
+  
+  #clear, #zero {
+    grid-column: 1 / 3;
+    width: 200px;
+  }
+  
+  #equals {
+    height: 170px;
+  }

@@ -1,0 +1,1 @@
+# A simple page with a calculator. The calculator logic is coded in JavaScript. This program was produced as part of the Front End Development Libraries course on freeCodeCamp.org. Created by Jacob Hexamer.
